@@ -1,4 +1,4 @@
-package sec1;
+ package sec1;
 //클래스 : 설계도, 객체를 만들기 위한 툴
 //클래스의 구성 : 멤버(변수)필드, 멤버 메서드, 생성자;
 public class Sample1 {

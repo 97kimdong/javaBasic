@@ -1,0 +1,12 @@
+package sec1;
+
+public class AnimalEx1 {
+
+	public static void main(String[] args) {
+		Animal cat1 = new Animal();
+		cat1.running();
+		System.out.println(cat1.getName());
+
+	}
+
+}
