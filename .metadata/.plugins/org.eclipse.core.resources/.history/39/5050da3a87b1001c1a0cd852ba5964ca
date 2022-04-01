@@ -1,0 +1,14 @@
+package sec3;
+import sec1.Animal;
+//클래스, 필드, 생성자, 메서드
+//public : 패키지가 달라도 import만 하면, 사용이 가능
+//default : 같은 패키지에서만 사용이 가능
+//private : 같은 클래스 내에서만 사용이 가능
+//public > protected > default > private
+public class AccessControl1 {
+	public static void main(String[] args) {
+		Animal cat1 = new Animal();
+
+	}
+
+}

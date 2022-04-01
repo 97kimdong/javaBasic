@@ -1,0 +1,8 @@
+package sec4;
+
+public class Service {
+	@Alim
+	public void method1() {
+		System.out.println("실행내용1");
+	}
+}

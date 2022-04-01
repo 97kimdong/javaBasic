@@ -1,0 +1,9 @@
+package sec3;
+import sec1.Animal;
+public class AccessControl1 {
+	public static void main(String[] args) {
+		Animal cat1 = new Animal();
+
+	}
+
+}

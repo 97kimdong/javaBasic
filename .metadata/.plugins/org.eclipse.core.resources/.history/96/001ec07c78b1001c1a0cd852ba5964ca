@@ -1,0 +1,14 @@
+package sec2;
+
+public class ClassEx2 {
+
+	public static void main(String[] args) {
+		Class2 method1 = new Class2();{
+			System.out.println(method1);
+		}
+		
+		Class2.method2();
+		
+
+	}
+}

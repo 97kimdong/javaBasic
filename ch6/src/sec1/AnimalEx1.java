@@ -6,7 +6,7 @@ public class AnimalEx1 {
 		Animal cat1 = new Animal("고양이");
 		cat1.running("고양이");
 		System.out.println(cat1.getName());
-
+		cat1.data = 10;
 	}
 
 }

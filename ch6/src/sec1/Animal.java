@@ -7,26 +7,26 @@ public class Animal {
 	private int wings;
 	private	boolean spine;
 	private int speed;
-	
-	Animal(){ 
+	public int data; // default
+	public Animal(){ 
 		this("동물");
 	}
-	Animal(String name){
+	public Animal(String name){
 		this(name,"포유류");
 	}
-	Animal(String name, String type){
+	public Animal(String name, String type){
 		this(name,type,4);
 	}
-	Animal(String name, String type, int legs){
+	public Animal(String name, String type, int legs){
 		this(name,type,legs,0);
 	}
-	Animal(String name, String type, int legs, int wings){
+	public Animal(String name, String type, int legs, int wings){
 		this(name,type,legs,wings, true);
 	}
-	Animal(String name, String type, int legs, int wings, boolean spine){
+	public Animal(String name, String type, int legs, int wings, boolean spine){
 		this(name,type,legs,wings,spine, 0);
 	}
-	Animal(String name, String type, int legs, int wings, boolean spine, int speed){
+	public Animal(String name, String type, int legs, int wings, boolean spine, int speed){
 		this.name = name;
 		this.type = type;
 		this.legs = legs;
