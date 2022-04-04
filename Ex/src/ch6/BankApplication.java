@@ -67,6 +67,8 @@ public class BankApplication {
 				System.out.print(account.getAno()+"\t");
 				System.out.print(account.getOwner()+"\t");
 				System.out.print(account.getBalance()+"\n");
+			} else {
+				break;
 			}
 		}
 		
