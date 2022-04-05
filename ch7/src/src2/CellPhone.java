@@ -13,6 +13,7 @@ public class CellPhone {
 		this.color = color;
 	}
 	
+	
 	public void powerOn() {
 		System.out.println("전원을 켭니다");
 	}

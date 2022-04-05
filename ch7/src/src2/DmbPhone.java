@@ -12,6 +12,39 @@ public class DmbPhone extends CellPhone {
 		this.color = color;
 		this.channel = channel;
 	}
+	
+	
+	
+	@Override
+	public void powerOn() {
+		// TODO Auto-generated method stub
+		super.powerOn();
+	}
+	@Override
+	public void powerOff() {
+		// TODO Auto-generated method stub
+		super.powerOff();
+	}
+	@Override
+	public void bell() {
+		// TODO Auto-generated method stub
+		super.bell();
+	}
+	@Override
+	public void sendVoice(String aaaa) {
+		// TODO Auto-generated method stub
+		super.sendVoice(aaaa);
+	}
+	@Override
+	public void receiveVoice(String bbbb) {
+		// TODO Auto-generated method stub
+		super.receiveVoice(bbbb);
+	}
+	@Override
+	public void hangUp() {
+		// TODO Auto-generated method stub
+		super.hangUp();
+	}
 	public void turnOnDmb() {
 		System.out.printf("현재 XX번 채널의 방송을 시작합니다.");
 	}
