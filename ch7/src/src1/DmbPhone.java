@@ -1,4 +1,4 @@
-package src2;
+package src1;
 
 import java.util.Scanner;
 
@@ -46,7 +46,7 @@ public class DmbPhone extends CellPhone {
 		super.hangUp();
 	}
 	public void turnOnDmb() {
-		System.out.printf("현재 XX번 채널의 방송을 시작합니다.");
+		System.out.printf("현재 "+this.channel+"채널의 방송을 시작합니다.");
 	}
 	public void changeChannelDmb(int channel) {
 		System.out.print("채널 입력 : ");

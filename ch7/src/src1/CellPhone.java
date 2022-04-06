@@ -1,4 +1,4 @@
-package src2;
+package src1;
 
 public class CellPhone {
 	String model;
