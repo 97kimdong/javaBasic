@@ -2,7 +2,8 @@ package sec1;
 //클래스가 클래스로 부터 상속을 받을 때 : extends
 //클래스가 인터페이스로 부터 상속을 받을 떄 : implements
 public class TvRemote implements RemoteControl{
-	int volume;
+	int volume; //인터페이스로 부터 상속된 클래스의 추가된 필드는 자동 private
+	int channel; //인터페이스로 부터 상속된 클래스의 추가된 필드는 자동 private
 	@Override
 	public void turnOn() {
 		System.out.println("TV 전원을 켭니다.");
@@ -23,5 +24,14 @@ public class TvRemote implements RemoteControl{
 		return volume;
 		
 	}
+
+	public int getChannel() {
+		return channel;
+	}
+
+	public void setChannel(int channel) {
+		this.channel = channel;
+	}
+	
 	
 }

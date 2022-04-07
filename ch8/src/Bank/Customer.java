@@ -1,4 +1,4 @@
-package sec1;
+package Bank;
 
 public  class Customer {
 	int Id;
@@ -16,6 +16,9 @@ public  class Customer {
 	public void GeneralInquiry() { };
 	public void DepositMoney() { };
 	public void WithdrawMoney() { };
-	public void OpenAccount()
+	public void OpenAccount() { };
+	public void CloseAccount() { };
+	public void ApplyForLoan() { };
+	public void RequestCard() { };
 }
 	

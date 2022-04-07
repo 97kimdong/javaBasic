@@ -1,4 +1,4 @@
-package sec1;
+package Bank;
 
 public class Loan {
 
